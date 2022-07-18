@@ -2,13 +2,13 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // self or public
-global.self = false //jadiin true klo gk mau fitur bot lu di pke sama org lain
+global.self = true //jadiin true klo gk mau fitur bot lu di pke sama org lain
 
 // setting
-global.ownername ="RafliKunn"
-global.ownernumber = "62895410068780"
-global.botname = "RflBotz Ofc"
-global.thumbnail = fs.readFileSync("./image/elaina.jpg") //sesuaikan dengan nama foto
+global.ownername ="SabilOfc"
+global.ownernumber = "6288980870067"
+global.botname = "Siesta Md"
+global.thumbnail = fs.readFileSync("./image/siesta.jpg") //sesuaikan dengan nama foto
 global.background = "https://telegra.ph/file/d4c05638fa7886a1d8060.jpg"
 global.lolkey = 'rafliofcheh' //ganti pakai apikey kalian
 global.limit = {
